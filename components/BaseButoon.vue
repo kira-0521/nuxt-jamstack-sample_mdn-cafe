@@ -10,7 +10,40 @@
 </template>
 
 <script>
-export default {}
+export default {
+  name: 'BaseButton',
+  props: {
+    name: {
+      type: String,
+      // 必須項目
+      required: true,
+    },
+    link: {
+      type: String,
+      required: true,
+    },
+    classPosition: {
+      type: String,
+      default: 'text-center',
+    },
+    classShape: {
+      type: String,
+      default: 'rounded-lg',
+    },
+    classBackGroundColor: {
+      type: String,
+      default: 'bg-white',
+    },
+    classBackGroundHoverColor: {
+      type: String,
+      default: 'hover:bg-gray-200',
+    },
+    classTextColor: {
+      type: String,
+      default: 'text-gray-800',
+    },
+  },
+}
 </script>
 
 <style></style>
