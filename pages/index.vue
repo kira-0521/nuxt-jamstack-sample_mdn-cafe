@@ -6,9 +6,7 @@
         message="お知らせやメニューをmicroCMSを利用したサンプルサイトになります。"
       />
       <div class="w-full md:max-w-3xl mx-auto pt-20 px-6 md:px-0">
-        <h2 class="font-sans text-lg text-gray-800 text-center text-3xl mb-10">
-          MdN Cafeのおすすめメニュー
-        </h2>
+        <base-heading> Jamstack Cafeのおすすめメニュー </base-heading>
         <div class="flex flex-wrap justify-between mb-20 md:mb-0">
           <div class="md:w-56 mb-20 shadow-lg bg-gray-200">
             <div class="max-w">
@@ -46,9 +44,7 @@
             メニューの一覧
           </a>
         </div>
-        <h2 class="font-sans text-lg text-gray-800 text-center text-3xl mb-10">
-          MdN Cafeのお知らせ
-        </h2>
+        <base-heading> Jamstack Cafeのお知らせ </base-heading>
         <div class="mb-20">
           <div
             class="bg-teal-100 border-t-4 border-teal-500 rounded-b text-teal-900 shadow-md mb-5"
