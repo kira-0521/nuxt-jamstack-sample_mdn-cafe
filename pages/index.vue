@@ -1,6 +1,10 @@
 <template>
   <div>
     <layout-wrapper>
+      <layout-visual
+        title="NUXT JAMSTACK SITE"
+        message="お知らせやメニューをmicroCMSを利用したサンプルサイトになります。"
+      />
       <div class="w-full md:max-w-3xl mx-auto pt-20 px-6 md:px-0">
         <h2 class="font-sans text-lg text-gray-800 text-center text-3xl mb-10">
           MdN Cafeのおすすめメニュー
