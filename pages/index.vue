@@ -35,6 +35,7 @@
               </div>
             </div>
           </div>
+          <base-button name="メニューの一覧" link="/menu/" />
         </div>
         <base-heading> Jamstack Cafeのお知らせ </base-heading>
         <div class="mb-20">
@@ -69,14 +70,7 @@
             </a>
           </div>
         </div>
-        <div class="mb-10 mx-auto text-center">
-          <a
-            href="/information/"
-            class="font-semibold md:text-lg xl:text-base px-4 md:px-5 xl:px-4 py-3 md:py-4 xl:py-3 leading-tight shadow-md rounded-lg bg-white hover:bg-gray-200 text-gray-800"
-          >
-            お知らせの一覧
-          </a>
-        </div>
+        <base-button name="お知らせの一覧" link="/information" />
       </div>
     </layout-wrapper>
   </div>
