@@ -1,3 +1,5 @@
+const { API_KEY, API_URL } = process.env
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -45,4 +47,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  publicRuntimeConfig: {
+    apiUrl: API_URL,
+  },
+  privateRuntimeConfig: {
+    apiKey: API_KEY,
+  },
 }
